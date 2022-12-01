@@ -2,6 +2,8 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import Multiplicator from "./";
 
+const mockNumberArray = [...Array(10)];
+
 describe("Multiplicator component", () => {
   test("should render", () => {
     const { queryByTestId } = render(<Multiplicator />);
@@ -11,5 +13,4 @@ describe("Multiplicator component", () => {
     render(<Multiplicator />);
     const button = screen.getAllByRole("button");
   });
-  test.todo("click even");
 });

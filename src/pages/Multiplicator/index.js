@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { isDivisible } from "../../helpers/isDivisible";
 import MainContainer from "../../components/MainContainer";
 import Title from "../../components/Title";
 import SubTitle from "../../components/SubTitle";
@@ -11,11 +12,6 @@ const Multiplicator = () => {
 
   const handleClick = (integer) => {
     setSelected(integer);
-    console.log(integer);
-  };
-
-  const isDivisible = (i, clickedNumber) => {
-    return i % clickedNumber === 0;
   };
 
   return (
@@ -24,7 +20,7 @@ const Multiplicator = () => {
       <SubTitle>Click on a number to see its multiplications 👆</SubTitle>
       <NumberContainer>
         {[...Array(MAX_NUMBER)].map((x, i) => (
-          <div style={{ aspectRatio: "1" }}>
+          <div style={{ aspectRatio: "1" }} key={i + 1}>
             <Number
               isHighlighted={isDivisible(i + 1, selected)}
               onClick={() => handleClick(i + 1)}
