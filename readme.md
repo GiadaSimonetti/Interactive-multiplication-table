@@ -1,64 +1,37 @@
-# Which? Front-end Exercise
-
-This repository provides information and a project boilerplate for completing the test exercise sent to candidates applying for front-end roles at Which?.
-
-## Getting up and running
-
-This repository provides a starting point for the test but if you'd rather start from scratch with your own setup that's fine too, as long as you complete [the exercise](#the-exercise).
-
-We have provided a [Webpack] and [Babel] based development environment which can compile and bundle your source code. It also includes a [server] which will automatically reload your code changes in the browser.
-
-Which? primarily uses [React] and [TypeScript] in our front-end projects but you can use vanilla JavaScript or other tools if you prefer. We have not provided any tooling to work with anything beyond vanilla JavaScript.
-
-We have provided [Jest] to test your code which is a fully featured testing framework. It includes a test runner, assertions, and mock functions.
-
-[React]: https://reactjs.org/
-[TypeScript]: https://www.typescriptlang.org/
-[Webpack]: https://webpack.js.org/
-[Babel]: https://babeljs.io/
-[server]: https://github.com/webpack/webpack-dev-server
-[Jest]: https://jestjs.io/
-
-### Requirements
-
-To get started you'll need to make sure you have the following software tools installed:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en/) (version 12 or higher is required)
-- [npm](http://npmjs.com/) (this should be installed along with Node.js)
+# Interactive Multiplication Table
 
 ### Installation and setup
 
 1. Clone this Git repository and change to the new directory that has been created:
 
-    ```sh
-    git clone https://github.com/whichdigital/fe-techtest.git --depth 1
-    cd fe-techtest
-    ```
+   ```sh
+   git clone https://github.com/whichdigital/fe-techtest.git --depth 1
+   cd fe-techtest
+   ```
 
 2. Install all of the project dependencies using npm:
 
-    ```sh
-    npm install
-    ```
+   ```sh
+   npm install
+   ```
 
 3. Once installed you can run the Webpack development server:
 
-    ```sh
-    npm start
-    ```
+   ```sh
+   npm start
+   ```
 
-    Now open [http://localhost:8080/](http://localhost:8080/) in your browser and you should see a basic HTML page. 
-    
-    If you open the developer console in the browser, you should see a welcome message which confirms everything is loading and running correctly.
+   Now open [http://localhost:8080/](http://localhost:8080/) in your browser and you should see a basic HTML page.
 
-    To stop the server when no longer needed, you can press <kbd>ctrl</kbd> + <kbd>c</kbd> in the terminal.
+   If you open the developer console in the browser, you should see a welcome message which confirms everything is loading and running correctly.
+
+   To stop the server when no longer needed, you can press <kbd>ctrl</kbd> + <kbd>c</kbd> in the terminal.
 
 4. And to run your tests use the following command:
 
-    ```sh
-    npm test
-    ```
+   ```sh
+   npm test
+   ```
 
 ## The exercise
 
@@ -91,12 +64,12 @@ We'd appreciate it if you could update this readme with additional information a
 
 Your completed test exercise will be marked according to a score sheet. We will focus on the following areas:
 
-* That your solution meets the requirements.
-* How usable your application is when using assistive technology.
-* Your approach to testing the application.
-* The use of responsive design.
-* Clear project structure and conventions.
-* How readable and understandable your code is.
-* The performance of your completed application.
+- That your solution meets the requirements.
+- How usable your application is when using assistive technology.
+- Your approach to testing the application.
+- The use of responsive design.
+- Clear project structure and conventions.
+- How readable and understandable your code is.
+- The performance of your completed application.
 
 You won’t be assessed on the appearance of the app beyond the visual requirements and accessibility criteria.
